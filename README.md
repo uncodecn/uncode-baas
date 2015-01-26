@@ -13,6 +13,12 @@ Uncode移动后端服务框架，开源的移动应用后端服务平台（开�
 
 
 [TOC]
+
+## 快速启动
+1 创建uncode数据库
+2 导入sql/mysql目录下的schema.sql和data.sql,也可导入示例的sql（导入data.sql时需要改修restapp中相应的数据库配置信息）。
+3 修改conf下的system.properties相关配置
+4 进入bin目录下，执行uncode.bat start
 	
 	
 ## 云端代码使用步骤

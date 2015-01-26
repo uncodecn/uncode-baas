@@ -16,10 +16,11 @@ Uncode移动后端服务框架，开源的移动应用后端服务平台（开�
 
 ## 快速启动
 1 创建uncode数据库
-2 导入sql/mysql目录下的schema.sql和data.sql,也可导入示例的sql（导入data.sql时需要改修restapp中相应的数据库配置信息）。
+2 导入sql/mysql目录下的schema.sql和data.sql,也可导入示例的sql。
 3 修改conf下的system.properties相关配置
 4 进入bin目录下，执行uncode.bat start
-	
+5 登录开发平台：http://127.0.0.1:8181/developer/login.html，用户名：ywj@uncode.cn,密码：test
+注意：数据库连接配置需要修改两个地方，一个是配置文件，另一个是data.sql中restapp的数据库连接配置。
 	
 ## 云端代码使用步骤
 
